@@ -11,7 +11,9 @@ buildscript {
     dependencies {
         classpath("net.serenity-bdd:serenity-gradle-plugin:1.1.1")     
     }
-}
+} 
+ 
+
 
 apply plugin: 'java'
 apply plugin: 'eclipse'

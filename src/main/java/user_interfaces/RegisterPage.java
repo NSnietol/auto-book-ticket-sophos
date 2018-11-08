@@ -30,9 +30,9 @@ public class RegisterPage extends PageObject {
 	
 	public static final Target INPUT_USER_NAME = Target.the("input user name ").locatedBy("//input[@id='email']");
 	
-	public static final Target INPUT_PASSWORD = Target.the("input password").locatedBy("//input[@name='state']");
+	public static final Target INPUT_PASSWORD = Target.the("input password").locatedBy("//input[@name='password']");
 
-	public static final Target INPUT_CONFIRM_PASSWORD = Target.the("input confirm password ").locatedBy("//input[@name='state']");
+	public static final Target INPUT_CONFIRM_PASSWORD = Target.the("input confirm password ").locatedBy("//input[@name='confirmPassword']");
 	
 	public static final Target BUTTON_REGISTER = Target.the("button register user ").locatedBy("//input[@name='register']");
 
