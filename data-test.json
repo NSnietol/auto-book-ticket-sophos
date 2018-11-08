@@ -1,0 +1,29 @@
+{
+    "usuario":{
+        "nombre":"Nilson",
+        "apellido":"Nieto",
+        "telefono":"3004558900",
+        "email":"prueba@hotmail.com",
+        "direccion1":"Barrio Santa lucia",
+        "direccion2":"Calle 12 Cr 2 #312",
+        "cuidad":"Medellin",
+        "estado":"Antioquia",
+        "codigoPostal":"1234",
+        "pais":"Colombia ",
+        "usuario":"sophos",
+        "contrasena":"sophos",
+        "vuelo":{
+            "tipo":"ida",
+            "numPasajeros":2,
+            "salida":"New york",
+            "mesSalida":"December",
+            "diaSalida":4,
+            "regreso":"New york",
+            "mesRegreso":"December",
+            "diaRegreso":4,
+            "clase":"Clase ejecutiva",
+            "aerolinea":"No Preference"
+        }
+    }
+
+}
