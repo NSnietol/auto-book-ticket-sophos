@@ -223,11 +223,11 @@ public class SearchFlight implements Task {
 			if (dataTest.get("tipo").equals("Round Trip")) {
 
 				List<WebElementFacade> listReturn = searchResultsPage.getReturnFlights();
-				int optionReturn = random.nextInt(listDepart.size());
+				int optionReturn = random.nextInt(listReturn.size());
 
 				// nextInt genera un numero entre 0 y el extremo, entonces si la lista tiene 6
 				// intenteria acceder a la indice 6, lo que ocasionaria un error
-				actor.attemptsTo(Click.on(listDepart.get(optionReturn == 0 ? 0 : optionReturn - 1)));
+				actor.attemptsTo(Click.on(listReturn.get(optionReturn == 0 ? 0 : optionReturn - 1)));
 			}
 
 		} catch (Exception e) {

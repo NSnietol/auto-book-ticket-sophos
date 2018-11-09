@@ -1,10 +1,15 @@
 package step_definition;
 
+import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
+import static org.hamcrest.Matchers.startsWith;
+
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import org.json.simple.JSONObject;
 import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 
-import cucumber.api.PendingException;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
@@ -14,13 +19,12 @@ import cucumber.api.junit.Cucumber;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
-import net.thucydides.core.annotations.Steps;
+import questions.ReservationResult;
 import tasks.BookTicket;
 import tasks.OpenTheBrowser;
 import tasks.RegistrerUser;
 import tasks.SearchFlight;
 import user_interfaces.MercuryTourHome;
-import user_interfaces.RegisterPage;
 import util.JsonManager;
 
 @RunWith(Cucumber.class)
@@ -84,7 +88,11 @@ public class BookTicketsDefinitions {
 
     @Then("^The flight confirmation is displayed on the page$")
     public void the_flight_confirmation_is_displayed_on_the_page() throws Throwable {
-    	System.out.println("5");
+    
+		 anna.should(seeThat(ReservationResult.is(), startsWith("Flight Confirmation # "+new SimpleDateFormat("yyyy-M-dd").format(Calendar.getInstance().getTime())) ));
+		 
+		 
+		 
       //  throw new PendingException();
     }
 

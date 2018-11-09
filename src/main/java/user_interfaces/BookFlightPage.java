@@ -7,6 +7,13 @@ import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.targets.Target;
 
+/**
+ * Representa la interface de usuario donde se concreta la informacion de la reserva
+ * 
+ * 
+ * */
+
+
 public class BookFlightPage extends PageObject {
 
 	public static final Target FORM_BOOKING_SUMMARY = Target.the("form booking summary")
@@ -49,8 +56,7 @@ public class BookFlightPage extends PageObject {
 
 	
 	
-	// 
-	
+	// Permite insertar la informacio de los distintos pasajeros 
 	public List<WebElementFacade> getInputsFirstNamePassanger() {
 		return findAll(By.xpath("//input[starts-with(@name,'passFirst')]"));
 

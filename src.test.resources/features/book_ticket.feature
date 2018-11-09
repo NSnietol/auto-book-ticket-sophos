@@ -5,7 +5,7 @@ Feature: Reserve a flight ticket
 
 
 
-  Scenario: reserve a ticket in newtours page
+  Scenario: reserve a ticket in Mercury page
      Given the user opened  Mercury tours home page
      And the user logs into the page
      When the user searches for a flight

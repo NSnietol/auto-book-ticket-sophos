@@ -9,6 +9,8 @@ import net.thucydides.core.annotations.Step;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
+
+// Se encarga de desplegar el navegador
 public class OpenTheBrowser implements Task {
 
 	private PageObject page;

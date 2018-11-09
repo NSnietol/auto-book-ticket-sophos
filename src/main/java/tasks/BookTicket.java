@@ -6,7 +6,6 @@ import java.util.List;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
-import org.openqa.selenium.Keys;
 
 import exceptions.PersonalizedException;
 import net.serenitybdd.core.pages.WebElementFacade;
@@ -17,15 +16,13 @@ import net.serenitybdd.screenplay.actions.Enter;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
 import net.thucydides.core.annotations.Step;
 import user_interfaces.BookFlightPage;
-import user_interfaces.FlightPage;
-import user_interfaces.MercuryTourHome;
-import user_interfaces.RegisterPage;
-import user_interfaces.SearchResultsPage;
 
+
+
+//Se encarga de completar la informacion de la reserva
 public class BookTicket implements Task {
 
 	BookFlightPage bookFlightPage;
-	RegisterPage registerUserPage;
 	JSONObject dataTest;
 
 	public BookTicket(JSONObject dataTest) {
@@ -164,6 +161,9 @@ public class BookTicket implements Task {
 			
 			// Marcar  Same as Billing Address, para reducir la cantidad de datos a ingresar
 			actor.attemptsTo(Click.on(bookFlightPage.getCheckBoxsBook().get(1)));
+			
+			clickInPurchaseSecure(actor);
+			
 
 		} catch (Exception e) {
 			throw new PersonalizedException("Inconvenientes con el resumen de reserva", e);

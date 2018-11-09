@@ -8,6 +8,11 @@ import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.targets.Target;
 
 
+
+/**
+ * Encapsula la informacion que contiene la respuesta a la consulta de tiquetes disponibles
+ * respecto a la informacion insertada en la pagina anterior
+ * */
 public class SearchResultsPage extends PageObject{
 
 	public static final Target TABLE_RESULTS = Target.the("results of the search").locatedBy("//form[@name='results']");

@@ -5,7 +5,7 @@ import net.serenitybdd.screenplay.targets.Target;
 import net.thucydides.core.annotations.DefaultUrl;
 /**
  * 
- * Clase Extiende de PagObject, referencia el link de la pagina web donde empezara la automatizacion
+ *  referencia el link de la pagina web donde empezara la automatizacion
  * 
 
  *

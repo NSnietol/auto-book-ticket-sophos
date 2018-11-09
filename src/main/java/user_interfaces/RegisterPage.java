@@ -3,9 +3,12 @@ package user_interfaces;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
+
+/**
+ * Encapsula la informacion de la pagina de registro de usuario
+ */
 public class RegisterPage extends PageObject {
-	/**
-	 */
+	
 	public static final Target INPUT_FIRST_NAME = Target.the("input first name user").locatedBy("//input[@name='firstName']");
 	
 	public static final Target INPUT_LAST_NAME = Target.the("input last name user").locatedBy("//input[@name='lastName']");

@@ -3,6 +3,12 @@ package user_interfaces;
 import net.serenitybdd.core.pages.PageObject;
 import net.serenitybdd.screenplay.targets.Target;
 
+
+/**
+ * 
+ * Encapsula la informcion relacionada en la pagina de busqueda de tiquetes
+ * Donde el usuario inserta la informacion sobre las condiciones del vuelo
+ * */
 public class FlightPage extends PageObject{
 
 	

@@ -16,6 +16,8 @@ import user_interfaces.MercuryTourHome;
 import user_interfaces.RegisterPage;
 
 
+
+// Registra el usuario en pagina web
 public class RegistrerUser implements Task {
 
 	MercuryTourHome homePage;
