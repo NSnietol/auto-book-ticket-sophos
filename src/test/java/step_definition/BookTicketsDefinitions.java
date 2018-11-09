@@ -15,6 +15,7 @@ import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import tasks.BookTicket;
 import tasks.OpenTheBrowser;
 import tasks.RegistrerUser;
 import tasks.SearchFlight;
@@ -76,8 +77,9 @@ public class BookTicketsDefinitions {
     
     @And("^the user booked the flight$")
     public void the_user_booked_the_flight() throws Throwable {
-    	System.out.println("4");
-        //throw new PendingException();
+    	
+    	anna.attemptsTo(BookTicket.chosen((JSONObject) JsonManager.getInstance().getJsonReader()));
+        
     }
 
     @Then("^The flight confirmation is displayed on the page$")

@@ -1,0 +1,1165 @@
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+<title>Book a Flight: Mercury Tours</title>
+<script language="JavaScript">
+function changeStyle(obj, new_style) {
+obj.className = new_style
+}
+</script>
+<style type="text/css">
+.menu {
+BACKGROUND-COLOR: white; BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: hidden
+}
+.visibleMenu {
+BORDER-BOTTOM: COLOR: menutext; CURSOR: default; FONT-FAMILY: MS Sans Serif; FONT-SIZE: 10pt; LINE-HEIGHT: 100%; POSITION: absolute; VISIBILITY: visible
+}
+.menuItem {
+POSITION: relative; COLOR: menutext; TEXT-DECORATION: none
+}
+.menuItemOver {
+POSITION: relative; COLOR: highlighttext; TEXT-DECORATION: none
+}
+.menuItemOver A {
+POSITION: relative; COLOR: highlighttext; CURSOR: default; TEXT-DECORATION: none
+}
+.menuItem A {
+POSITION: relative; COLOR: menutext; CURSOR: default; TEXT-DECORATION: none
+}
+.more {
+FONT-FAMILY: WebDings; POSITION: relative; TEXT-ALIGN: right; Z-INDEX: 100
+}
+.mouseOut {BACKGROUND: orange; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt;align="center"}
+.mouseOver {BACKGROUND: "#FFC455"; FONT-Weight: bold;FONT-FAMILY: Helvetica; FONT-SIZE: 8pt; align="center"}
+</style></head>
+<body bgcolor="#FFFFFF" vlink="#666666" link="#000099">
+<div>
+<table border="0" height="100%" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td valign="top" bgcolor="#003366">      <table border="0" cellpadding="0" cellspacing="0">
+    <tbody><tr><td valign="top" halign="center" bgcolor="#003366">
+
+<!--NAVIGATION BAR REGION START-->
+<table width="110" border="0" cellspacing="0" cellpadding="8" align="center">
+<tbody><tr valign="top">
+<td>
+<p align="center"><img src="/images/nav/logo.gif" width="100" height="110" alt="Mercury Tours" /><br />	  </p>
+<table border="2" cellspacing="0" cellpadding="2" align="center" bordercolor="#000000">
+<tbody><tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+<td width="80" height="19" bgcolor="#FFC455"><font color="#000000"><a href="mercurywelcome.php">Home</a></font></td>
+</tr>
+<tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+<td width="80" height="19" bgcolor="#FFC455"><a href="mercuryreservation.php">Flights</a></td></tr>
+
+<tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+<td width="80" height="19" bgcolor="#FFC455"><a href="mercuryunderconst.php">Hotels</a></td>
+</tr>
+<tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+<td width="80" height="19" bgcolor="#FFC455"><font color="#000000"><a href="mercuryunderconst.php">Car Rentals</a></font></td>
+</tr>
+<tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+<td width="80" height="19" bgcolor="#FFC455"><a href="mercuryunderconst.php">Cruises</a></td>
+</tr>
+<tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+
+<td width="80" height="19" bgcolor="#FFC455"><a href="mercuryunderconst.php">Destinations</a></td>
+</tr>
+<tr class="mouseOut" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')">
+<td width="20" height="19"></td>
+<td width="80" height="19" bgcolor="#FFC455"><a href="mercuryunderconst.php">Vacations</a></td>
+</tr></tbody></table>
+<p align="center"><img src="/images/nav/html.gif" width="100" height="61" border="0" />
+<a href="mercuryunderconst.php"><font face="Arial, Helvetica, sans-serif" color="white" size="1">Use Java Version</font></a></p>
+<p align="center"><img src="/images/nav/boxad1.gif" width="88" height="78" /></p>
+</td></tr>
+</tbody></table>
+
+<!--NAVIGATION BAR REGION END-->
+
+    </td>
+		</tr></tbody></table>
+    </td>
+    <td valign="top">
+      <table border="0" cellpadding="0" cellspacing="0">
+        <tbody><tr>
+          <td bgcolor="#003366" height="63">
+
+<!--AD REGION START-->
+<img src="/images/banner2.gif" width="488" height="63" border="0" hspace="8" vspace="4" />
+
+<!--AD REGION END-->
+
+          </td>
+       </tr>
+      <tr>
+        <td height="16" bgcolor="#FF9900" align="right">
+
+
+
+<!--HEADER REGION START-->
+<table border="1" bordercolor="#000000" cellpadding="0" cellspacing="0" height=" 16" background=" black">
+  <tbody><tr>
+
+    <td class="mouseOut" width="67" height="33" align="center" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')"><a href="mercurysignoff.php">SIGN-OFF</a></td>
+    <td class="mouseOut" width="77" height="33" align="center" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')"><a href="mercuryregister.php">REGISTER</a></td>
+    <td class="mouseOut" width="73" height="33" align="center" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')"><a href="mercuryunderconst.php">SUPPORT</a></td>
+    <td class="mouseOut" width="74" height="33" align="center" onmouseout="changeStyle(this, 'mouseOut')" onmouseover="changeStyle(this, 'mouseOver')"><a href="mercuryunderconst.php">CONTACT</a></td>
+  </tr>
+</tbody></table>
+
+<!--HEADER REGION END-->
+
+        </td>
+      </tr>
+      <tr>
+        <td height="14" align="right">
+
+
+
+<!--Space REGION START-->
+
+<!--Space REGION END-->
+
+        </td>
+
+      </tr>
+      <tr>
+        <td>
+
+<!--CONTENT REGION START-->
+				<table border="0" cellpadding="0" cellspacing="0">
+				<tbody><tr>
+				  <td width="14">
+				    
+				  </td>
+				<td>
+
+
+<table width="492" border="0" cellspacing="0" cellpadding="0">
+  <tbody><tr> 
+    <td><img src="/images/masts/mast_book.gif" width="492" height="30" /></td>
+  </tr>
+  <tr> 
+    <td><img src="/images/spacer.gif" width="1" height="10" /></td>
+  </tr>
+  <tr> 
+    <td><font face="Arial, Helvetica, sans-serif" size="2">Please review your 
+      travel itinerary and make your purchase.</font></td>
+  </tr>
+
+  <tr>
+    <td><img src="/images/spacer.gif" width="1" height="10" /></td>
+  </tr>
+  <tr> 
+    <td> 
+		<form method="post" action="mercurypurchase2.php" name="bookflight">
+	<input type="hidden" name="outFlightName" value="Blue Skies Airlines" />
+	<input type="hidden" name="outFlightNumber" value="361" />
+	<input type="hidden" name="outFlightPrice" value="271" />
+	<input type="hidden" name="outFlightTime" value="7:10" />
+	<input type="hidden" name="inFlightName" value="Blue Skies Airlines" />
+	<input type="hidden" name="inFlightNumber" value="630" />
+	<input type="hidden" name="inFlightPrice" value="270" />
+	<input type="hidden" name="inFlightTime" value="12:23" />
+	<input type="hidden" name="fromPort" value="New York" />
+	<input type="hidden" name="toPort" value="London" />
+	<input type="hidden" name="passCount" value="2" />
+	<input type="hidden" name="toDay" value="8" />
+	<input type="hidden" name="toMonth" value="12" />
+	<input type="hidden" name="fromDay" value="4" />
+	<input type="hidden" name="fromMonth" value="12" />
+	<input type="hidden" name="servClass" value="Business" />
+	<input type="hidden" name="subtotal" value="1082" />
+	<input type="hidden" name="taxes" value="89" />
+<input type="hidden" value="PurchaseServlet" />        <table cellpadding="2" border="0" width="100%" cellspacing="2">
+          <tbody><tr> 
+            <td colspan="2" bgcolor="#CCCCCC"><font face="ARIAL, HELVETICA" size="2"><font color="white" size="-1"><b><font color="#FFFFFF"><font face="ARIAL, HELVETICA" size="2" color="#000000">Summary
+
+              </font></font></b></font></font></td>
+          </tr>
+
+          <tr> 
+            <td colspan="2"> 
+              <table border="0" cellspacing="1" cellpadding="2" bgcolor="ffffff" width="100%">
+                <tbody><tr align="left"> 
+                  <td class="frame_header_info" nowrap=""><b><font color="#333333" size="2" face="ARIAL">New York to London</font></b></td>
+                  <td class="frame_header_info" nowrap="" colspan="2" align="right"><b><font color="#333333" size="2" face="ARIAL">
+                    12/4/2018</font></b></td>
+                </tr>
+                <tr> 
+                  <td class="frame_header_info" align="CENTER" bgcolor="#003399" nowrap=""><font color="#FFFFFF" size="-2" face="ARIAL">FLIGHT</font></td>
+
+                  <td class="frame_header_info" align="CENTER" bgcolor="#003399" nowrap=""><font color="#FFFFFF" size="-2" face="ARIAL">CLASS</font></td>
+                  <td class="frame_header_info" align="CENTER" bgcolor="#003399" nowrap=""><font color="#FFFFFF" size="-2" face="ARIAL">PRICE</font></td>
+                </tr>
+                <tr> 
+                  <td class="data_left" align="LEFT" bgcolor="#FFCC00"><font size="-1" face="ARIAL"><b>
+				   Blue Skies Airlines 361</b><a href="/cgi/get?airplane:_x32HKTgUlm*itn/airplanes/M80,itn/pl/thetrip"></a></font></td>
+                  <td class="data_center_mono" align="CENTER" valign="TOP" bgcolor="#FFCC00"><font size="-1" face="ARIAL">
+				  Business</font><br />
+
+                  </td>
+                  <td class="data_center" align="CENTER" nowrap="" bgcolor="#FFCC00"><font size="-1" face="ARIAL">
+				  271 </font></td>
+                  <!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--> 
+                  <!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--></tr>
+				<tr> 
+                  <td class="data_left" align="LEFT" bgcolor="#FFFFFF"><b><font color="#333333" size="2" face="ARIAL">
+                    London to New York</font></b></td>
+                  <td class="data_center_mono" align="right" valign="TOP" colspan="2" bgcolor="#FFFFFF"><b><font color="#333333" size="2" face="ARIAL">
+
+                    12/8/2018</font></b></td>
+                </tr>
+                <tr align="center"> 
+                  <td class="data_left" bgcolor="#003399"><font color="#FFFFFF" size="-2" face="ARIAL">FLIGHT</font><font size="-1" face="ARIAL"></font></td>
+                  <td class="data_center_mono" valign="TOP" bgcolor="#003399"><font color="#FFFFFF" size="-2" face="ARIAL">CLASS</font> </td>
+                  <td class="data_center" nowrap="" bgcolor="#003399"><font color="#FFFFFF" size="-2" face="ARIAL">PRICE</font></td>
+                  <!--<TD class=data_center ALIGN=CENTER BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>--> 
+                  <!--<TD class=data_right  ALIGN=RIGHT BGCOLOR=CCCCCC NOWRAP><FONT SIZE=-1 FACE=ARIAL>&nbsp</FONT></TD>-->
+
+			       </tr>
+                <tr align="center"> 
+                  <td class="data_left" align="left" bgcolor="#FFCC00"><font size="-1"><font size="-1"><font size="-1" face="ARIAL"><b>
+				  Blue Skies Airlines 630</b></font><font color="#333333" face="arial"></font></font></font></td>
+                  <td class="data_center_mono" valign="TOP" bgcolor="#FFCC00"><font size="-1" face="ARIAL">Business</font></td>
+                  <td class="data_center" nowrap="" bgcolor="#FFCC00"><font size="-1" face="ARIAL">
+				  270</font></td>
+                </tr>
+
+				  <tr align="right"> 
+                  <td class="data_left" colspan="2"><font face="Arial, Helvetica, sans-serif" size="2">Passengers:</font></td>
+                  <td class="data_left" align="center"><font face="Arial, Helvetica, sans-serif" size="2">2</font></td>
+                </tr>
+				<tr align="right"> 
+                  <td class="data_left" colspan="2"> <font face="Arial, Helvetica, sans-serif" size="2">    
+                    Taxes:</font></td>
+                  <td class="data_left" align="center"><font face="Arial, Helvetica, sans-serif" size="2">$89</font></td>
+
+                </tr>
+				<tr align="right"> 
+                  <td class="data_left" colspan="2"> <font face="Arial, Helvetica, sans-serif" size="2">    
+                    Total Price (including taxes):</font></td>
+                  <td class="data_left" align="center"><font face="Arial, Helvetica, sans-serif" size="2"><b>$1171</b></font></td>
+                </tr>
+              </tbody></table>
+            </td>
+
+          </tr>
+          
+	     <tr> 
+            <td colspan="2" bgcolor="#CCCCCC"><font face="ARIAL, HELVETICA" size="2"><font color="white" size="-1"> 
+              <b><font color="#FFFFFF"><font face="ARIAL, HELVETICA" size="2" color="#000000">Passengers 
+              </font></font></b></font></font></td>
+      </tr>
+	     <tr> 
+            <td colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr> 
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" color="red" size="2">First Name:</font></td>
+
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" color="red" size="2">Last Name:</font></td>
+                  <td width="34%"><font face="Arial, Helvetica, sans-serif" size="2">Meal:</font></td>
+                </tr>
+                <tr> 
+                  <td width="33%"> 
+                    <input maxlength="60" name="passFirst0" size="15" />
+                  </td>
+                  <td width="33%"> 
+                    <input maxlength="60" name="passLast0" size="15" />
+
+                  </td>
+                  <td width="34%"> 
+                    <select name="pass.0.meal" size="1">
+                      <option value="" selected="">No preference</option>
+                      <option value="BLML">Bland</option>
+                      <option value="DBML">Diabetic</option>
+                      <option value="HNML">Hindu</option>
+
+                      <option value="KSML">Kosher</option>
+                      <option value="LCML">Low Calorie</option>
+                      <option value="LFML">Low Cholesterol</option>
+                      <option value="LSML">Low Sodium</option>
+                      <option value="MOML">Muslim</option>
+                      <option value="VGML">Vegetarian</option>
+
+                    </select>
+                  </td>
+                </tr>
+
+              </tbody></table>
+            </td>
+          </tr>
+	     <tr> 
+            <td colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                <tbody><tr> 
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" color="red" size="2">First Name:</font></td>
+
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" color="red" size="2">Last Name:</font></td>
+                  <td width="34%"><font face="Arial, Helvetica, sans-serif" size="2">Meal:</font></td>
+                </tr>
+                <tr> 
+                  <td width="33%"> 
+                    <input maxlength="60" name="passFirst1" size="15" />
+                  </td>
+                  <td width="33%"> 
+                    <input maxlength="60" name="passLast1" size="15" />
+
+                  </td>
+                  <td width="34%"> 
+                    <select name="pass.1.meal" size="1">
+                      <option value="" selected="">No preference</option>
+                      <option value="BLML">Bland</option>
+                      <option value="DBML">Diabetic</option>
+                      <option value="HNML">Hindu</option>
+
+                      <option value="KSML">Kosher</option>
+                      <option value="LCML">Low Calorie</option>
+                      <option value="LFML">Low Cholesterol</option>
+                      <option value="LSML">Low Sodium</option>
+                      <option value="MOML">Muslim</option>
+                      <option value="VGML">Vegetarian</option>
+
+                    </select>
+                  </td>
+                </tr>
+
+              </tbody></table>
+            </td>
+          </tr>
+<script language="JavaScript">
+function CheckExpYear() {
+if (document.bookflight.cc_exp_dt_yr.value == "2003")
+	alert('You have entered 2003 as expiration year!');
+}
+//--&gt;
+</script>
+	     <tr> 
+            <td colspan="2" bgcolor="#CCCCCC"><font face="ARIAL, HELVETICA" size="2"><font color="white" size="-1"><b><font face="ARIAL, HELVETICA" size="2"><font color="white" size="-1"><b><font color="#FFFFFF"><font face="ARIAL, HELVETICA" size="2" color="#000000">Credit 
+              Card </font></font></b></font></font><font color="#003399"></font></b></font></font></td>
+
+          </tr>
+          <tr> 
+            <td colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                <tbody><tr> 
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">Card 
+                    Type: </font></td>
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" color="red" size="2">Number:</font></td>
+                  <td width="34%"><font face="Arial, Helvetica, sans-serif" size="2">Expiration:</font></td>
+                </tr>
+
+                <tr> 
+                  <td width="33%"> 
+                    <select name="creditCard" size="1">
+                      <option value="AX" selected="">American Express</option>
+                      <option value="IK">MasterCard</option>
+                      <option value="BA">Visa</option>
+                      <option value="DS">Discover</option>
+                      <option value="DC">Diners Club</option>
+
+                      <option value="CB">Carte Blanche</option>
+                    </select>
+                  </td>
+                  <td width="33%"> 
+                    <input type="text" name="creditnumber" value="" size="16" maxlength="16" />
+                  </td>
+                  <td width="34%"> 
+                    <select name="cc_exp_dt_mn" size="1">
+                      <option selected="">None 
+                      </option><option>01 
+                      </option><option>02 
+                      </option><option>03 
+                      </option><option>04 
+                      </option><option>05 
+                      </option><option>06 
+                      </option><option>07 
+                      </option><option>08 
+                      </option><option>09 
+                      </option><option>10 
+                      </option><option>11 
+                      </option><option>12 
+                    </option></select>
+
+                    <select name="cc_exp_dt_yr" size="1" onchange="javascript:CheckExpYear()">
+                      <option selected="">None 
+                      </option><option value="2000">2000 
+                      </option><option value="2001">2001 
+                      </option><option value="2002">2002 
+                      </option><option value="2003">2003 
+                      </option><option value="2004">2004 
+                      </option><option value="2005">2005 
+                      </option><option value="2006">2006 
+                      </option><option value="2007">2007 
+                      </option><option value="2008">2008 
+                      </option><option value="2009">2009 
+                      </option><option value="2010">2010 
+                    </option></select>
+                  </td>
+
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+          <tr> 
+            <td colspan="2"> 
+              <table width="100%" border="0" cellspacing="0" cellpadding="2">
+                <tbody><tr> 
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">First 
+                    Name:</font></td>
+                  <td width="33%"><font face="Arial, Helvetica, sans-serif" size="2">Middle:</font></td>
+
+                  <td width="34%"><font face="Arial, Helvetica, sans-serif" size="2">Last:</font></td>
+                </tr>
+                <tr> 
+                  <td width="33%"> 
+                    <input type="TEXT" name="cc_frst_name" size="15" maxlength="60" />
+                  </td>
+                  <td width="33%"> 
+                    <input type="TEXT" name="cc_mid_name" size="15" maxlength="20" />
+                  </td>
+                  <td width="34%"> 
+                    <input type="TEXT" name="cc_last_name" size="15" maxlength="60" />
+
+                  </td>
+                </tr>
+              </tbody></table>
+            </td>
+          </tr>
+	     <tr bgcolor="#CCCCCC"> 
+            <td><font face="Arial, Helvetica, sans-serif" size="2"><b>
+              Billing Address</b></font></td>
+		  <td align="right">
+
+                    <input type="checkbox" name="ticketLess" value="checkbox" />
+                    <font face="Arial, Helvetica, sans-serif" size="2">
+			Ticketless Travel </font></td>
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>Address: 
+              </b></font></td>
+            <td> 
+              <input maxlength="60" name="billAddress1" size="40" value="1325 Borregas Ave." />
+            </td>
+
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+            <td> 
+              <input maxlength="60" size="40" name="billAddress2" value="" />
+            </td>
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>City: 
+              </b></font></td>
+            <td> 
+              <input maxlength="60" name="billCity" size="20" value="Sunnyvale" />
+
+            </td>
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>State/Province:</b></font> 
+            </td>
+            <td> 
+              <input maxlength="40" name="billState" size="15" value="CA" />
+                <font face="Arial, Helvetica, sans-serif" size="2"><b>Postal 
+              Code:</b></font> 
+              <input maxlength="20" name="billZip" size="12" value="94089" />
+            </td>
+
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>Country:</b></font></td>
+            <td> 
+<!-- 215.0 (country)  -->
+<select name="billCountry">
+<option value="1">ANTIGUA AND BARBUDA 
+</option><option value="2">ALBANIA 
+</option><option value="3">ALGERIA 
+</option><option value="4">ANDORRA 
+</option><option value="5">ASHMORE AND CARTIER ISLANDS 
+</option><option value="6">AUSTRALIA 
+</option><option value="7">AMERICAN SAMOA 
+
+</option><option value="8">ARGENTINA 
+</option><option value="9">AUSTRIA 
+</option><option value="10">ANGUILLA 
+</option><option value="11">BAHAMAS 
+</option><option value="12">BAHRAIN 
+</option><option value="13">BAKER ISLAND 
+</option><option value="14">BANGLADESH 
+</option><option value="15">BARBADOS 
+</option><option value="16">BASSA DE INDIA 
+</option><option value="17">BELGIUM 
+</option><option value="18">BELIZE 
+</option><option value="19">BENIN 
+</option><option value="20">BERMUDA 
+</option><option value="21">BHUTAN 
+</option><option value="22">BOLIVIA 
+</option><option value="23">BOSNIA AND HERZEGOVINA 
+</option><option value="24">BOTSWANA 
+
+</option><option value="25">BOUVET ISLAND 
+</option><option value="26">BRAZIL 
+</option><option value="27">BRITISH INDIAN OCEAN TERRITORY 
+</option><option value="28">BRITISH VIRGIN ISLANDS 
+</option><option value="29">BRUNEI 
+</option><option value="30">BURMA 
+</option><option value="31">BURUNDI 
+</option><option value="32">CANADA 
+</option><option value="33">CAPE VERDE 
+</option><option value="34">CAYMAN ISLANDS 
+</option><option value="35">CENTRAL AFRICAN REPUBLIC 
+</option><option value="36">CHAD 
+</option><option value="37">CHILE 
+</option><option value="38">CHINA 
+</option><option value="39">CHRISTMAS ISLAND 
+</option><option value="40">CLIPPERTON ISLAND 
+</option><option value="41">COCOS (KEELING) ISLANDS 
+
+</option><option value="42">COLOMBIA 
+</option><option value="43">COMOROS 
+</option><option value="44">CONGO 
+</option><option value="45">COOK ISLANDS 
+</option><option value="46">CORAL SEA ISLANDS 
+</option><option value="47">CROATIA 
+</option><option value="48">CUBA 
+</option><option value="49">CYPRUS 
+</option><option value="50">CZECH REPUBLIC 
+</option><option value="51">DENMARK 
+</option><option value="52">DJIBOUTI 
+</option><option value="53">DOMINICA 
+</option><option value="54">DOMINICAN REPUBLIC 
+</option><option value="55">ECUADOR 
+</option><option value="56">EGYPT 
+</option><option value="57">EL SALVADOR 
+</option><option value="58">EQUATORIAL GUINEA 
+
+</option><option value="59">ERITREA 
+</option><option value="60">ETHIOPIA 
+</option><option value="61">EUROPA ISLAND 
+</option><option value="62">FAROE ISLANDS 
+</option><option value="63">FIJI 
+</option><option value="64">FINLAND 
+</option><option value="65">FRANCE 
+</option><option value="66">FRENCH GUIANA 
+</option><option value="67">FRENCH POLYNESIA 
+</option><option value="68">FRENCH SOUTHERN AND ANTARCTIC LANDS 
+</option><option value="69">GABON 
+</option><option value="70">GAZA STRIP 
+</option><option value="71">GEORGIA 
+</option><option value="72">GHANA 
+</option><option value="73">GIBRALTAR 
+</option><option value="74">GLORIOSO ISLANDS 
+</option><option value="75">GREECE 
+
+</option><option value="76">GREENLAND 
+</option><option value="77">GRENADA 
+</option><option value="78">GUADELOUPE 
+</option><option value="79">GUAM 
+</option><option value="80">GUATEMALA 
+</option><option value="81">GUERNSEY 
+</option><option value="82">GUINEA 
+</option><option value="83">GUINEA-BISSAU 
+</option><option value="84">GUYANA 
+</option><option value="85">HAITI 
+</option><option value="86">HEARD ISLAND AND MCDONALD ISLANDS 
+</option><option value="87">HONDURAS 
+</option><option value="88">HONG KONG 
+</option><option value="89">HOWLAND ISLAND 
+</option><option value="90">HUNGARY 
+</option><option value="91">ICELAND 
+</option><option value="92">INDIA 
+
+</option><option value="93">INDONESIA 
+</option><option value="94">IRELAND 
+</option><option value="95">ISRAEL 
+</option><option value="96">ITALY 
+</option><option value="97">COTE D'IVOIRE 
+</option><option value="98">JAMAICA 
+</option><option value="99">JAN MAYEN 
+</option><option value="100">JAPAN 
+</option><option value="101">JARVIS ISLAND 
+</option><option value="102">JERSEY 
+</option><option value="103">JOHNSTON ATOLL 
+</option><option value="104">JORDAN 
+</option><option value="105">JUAN DE NOVA ISLAND 
+</option><option value="106">CAMBODIA 
+</option><option value="107">KENYA 
+</option><option value="108">KINGMAN REEF 
+</option><option value="109">KIRIBATI 
+
+</option><option value="110">KUWAIT 
+</option><option value="111">KYRGYZSTAN 
+</option><option value="112">LAOS 
+</option><option value="113">LATVIA 
+</option><option value="114">LEBANON 
+</option><option value="115">LESOTHO 
+</option><option value="116">LIBERIA 
+</option><option value="117">LIECHTENSTEIN 
+</option><option value="118">LITHUANIA 
+</option><option value="119">LUXEMBOURG 
+</option><option value="120">MACAU 
+</option><option value="121">MADAGASCAR 
+</option><option value="122">MALAWI 
+</option><option value="123">MALAYSIA 
+</option><option value="124">MALDIVES 
+</option><option value="125">MALI 
+</option><option value="126">MALTA 
+
+</option><option value="127">MAN, ISLE OF 
+</option><option value="128">MARTINIQUE 
+</option><option value="129">MAURITANIA 
+</option><option value="130">MAURITIUS 
+</option><option value="131">MAYOTTE 
+</option><option value="132">MEXICO 
+</option><option value="133">MIDWAY ISLANDS 
+</option><option value="134">MOLDOVA 
+</option><option value="135">MONACO 
+</option><option value="136">MONGOLIA 
+</option><option value="137">MONTENEGRO 
+</option><option value="138">MONTSERRAT 
+</option><option value="139">MOROCCO 
+</option><option value="140">MOZAMBIQUE 
+</option><option value="141">NAMIBIA 
+</option><option value="142">NAURU 
+</option><option value="143">NAVASSA ISLAND 
+
+</option><option value="144">NEPAL 
+</option><option value="145">NETHERLANDS 
+</option><option value="146">NETHERLANDS ANTILLES 
+</option><option value="147">NEW CALEDONIA 
+</option><option value="148">NEW ZEALAND 
+</option><option value="149">NICARAGUA 
+</option><option value="150">NIGER 
+</option><option value="151">NIGERIA 
+</option><option value="152">NIUE 
+</option><option value="153">NO MANS LAND 
+</option><option value="154">NORFOLK ISLAND 
+</option><option value="155">NORTHERN MARIANA ISLANDS 
+</option><option value="156">NORWAY 
+</option><option value="157">OMAN 
+</option><option value="158">PALMYRA ATOLL 
+</option><option value="159">PANAMA 
+</option><option value="160">PAPUA NEW GUINEA 
+
+</option><option value="161">PARACEL ISLANDS 
+</option><option value="162">PARAGUAY 
+</option><option value="163">PERU 
+</option><option value="164">PHILIPPINES 
+</option><option value="165">PITCAIRN ISLANDS 
+</option><option value="166">POLAND 
+</option><option value="167">PORTUGAL 
+</option><option value="168">PUERTO RICO 
+</option><option value="169">QATAR 
+</option><option value="170">REUNION 
+</option><option value="171">ROMANIA 
+</option><option value="172">RWANDA 
+</option><option value="173">ST. KITTS AND NEVIS 
+</option><option value="174">ST. HELENA 
+</option><option value="175">ST. LUCIA 
+</option><option value="176">ST. PIERRE AND MIQUELON 
+</option><option value="177">ST. VINCENT AND THE GRENADINES 
+
+</option><option value="178">SAN MARINO 
+</option><option value="179">SAO TOME AND PRINCIPE 
+</option><option value="180">SENEGAL 
+</option><option value="181">SERBIA 
+</option><option value="182">SEYCHELLES 
+</option><option value="183">SIERRA LEONE 
+</option><option value="184">SINGAPORE 
+</option><option value="185">SLOVAKIA 
+</option><option value="186">SLOVENIA 
+</option><option value="187">SOLOMON ISLANDS 
+</option><option value="188">SOUTH AFRICA 
+</option><option value="189">189
+</option><option value="190">SPAIN 
+</option><option value="191">SPRATLY ISLANDS 
+</option><option value="192">SRI LANKA 
+</option><option value="193">SUDAN 
+</option><option value="194">SURINAME 
+
+</option><option value="195">SVALBARD 
+</option><option value="196">SWAZILAND 
+</option><option value="197">SWEDEN 
+</option><option value="198">SWITZERLAND 
+</option><option value="199">SYRIA 
+</option><option value="200">THAILAND 
+</option><option value="201">TOGO 
+</option><option value="202">TOKELAU 
+</option><option value="203">TONGA 
+</option><option value="204">TRINIDAD AND TOBAGO 
+</option><option value="205">TROMELIN ISLAND 
+</option><option value="206">TUNISIA 
+</option><option value="207">TURKEY 
+</option><option value="208">TURKS AND CAICOS ISLANDS 
+</option><option value="209">TUVALU 
+</option><option value="210">UGANDA 
+</option><option value="211">SOVIET UNION 
+
+</option><option value="212">UKRAINE 
+</option><option value="213">UNITED ARAB EMIRATES 
+</option><option value="214">UNITED KINGDOM 
+</option><option selected="" value="215">UNITED STATES 
+</option><option value="216">BURKINA FASO 
+</option><option value="217">URUGUAY 
+</option><option value="218">UZBEKISTAN 
+</option><option value="219">VANUATU 
+</option><option value="220">VATICAN CITY 
+</option><option value="221">VENEZUELA 
+</option><option value="222">VIRGIN ISLANDS 
+</option><option value="223">WAKE ISLAND 
+</option><option value="224">WALLIS AND FUTUNA 
+</option><option value="225">WEST BANK 
+</option><option value="226">WESTERN SAHARA 
+</option><option value="227">WESTERN SAMOA 
+</option><option value="228">ZAIRE 
+
+</option><option value="229">ZAMBIA 
+</option><option value="230">ZIMBABWE 
+</option><option value="231">TAIWAN 
+</option><option value="232">YUGOSLAVIA 
+</option><option value="233">UNDERSEA FEATURES 
+</option><option value="234">ANTARCTICA 
+</option><option value="235">BULGARIA 
+</option><option value="236">ARUBA 
+</option><option value="237">FALKLAND ISLANDS 
+</option><option value="238">OCEANS 
+</option><option value="239">COSTA RICA 
+</option><option value="240">YEMEN 
+</option><option value="241">BELARUS 
+</option><option value="242">GERMANY 
+</option><option value="243">ARMENIA 
+</option><option value="244">KAZAKHSTAN 
+</option><option value="245">TAJIKISTAN 
+
+</option><option value="246">TURKMENISTAN 
+</option><option value="247">ESTONIA 
+</option><option value="248">AFGHANISTAN 
+</option><option value="249">AZERBAIJAN 
+</option><option value="250">PAKISTAN 
+</option><option value="251">ANGOLA 
+</option><option value="252">VIETNAM 
+</option><option value="253">CAMEROON 
+</option><option value="254">IRAN 
+</option><option value="255">IRAQ 
+</option><option value="256">RUSSIA 
+</option><option value="257">SAUDI ARABIA 
+</option><option value="258">LIBYA 
+</option><option value="259">KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF 
+</option><option value="260">KOREA, REPUBLIC OF 
+</option><option value="261">TANZANIA, UNITED REPUBLIC OF 
+</option><option value="262">GAMBIA, THE 
+
+</option><option value="263">SOMALIA 
+</option><option value="264">MACEDONIA, FORMER REPUBLIC OF 
+</option><option value="265">MARSHALL ISLANDS 
+</option><option value="266">MICRONESIA 
+</option></select>
+
+            </td>
+          </tr>
+          
+	     <tr bgcolor="#CCCCCC"> 
+            <td><font face="Arial, Helvetica, sans-serif" size="2"><b>
+              Delivery Address</b></font></td>
+		  <td align="right">
+
+                    <input type="checkbox" name="ticketLess" value="checkbox" />
+                    <font face="Arial, Helvetica, sans-serif" size="2">
+			Same as Billing Address </font></td>
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>Address: 
+              </b></font></td>
+            <td> 
+              <input maxlength="60" name="delAddress1" size="40" value="1325 Borregas Ave." />
+            </td>
+
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"></font></td>
+            <td> 
+              <input maxlength="60" size="40" name="delAddress2" value="" />
+            </td>
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>City: 
+              </b></font></td>
+            <td> 
+              <input maxlength="60" name="delCity" size="20" value="Sunnyvale" />
+
+            </td>
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>State/Province:</b></font> 
+            </td>
+            <td> 
+              <input maxlength="40" name="delState" size="15" value="CA" />
+                <font face="Arial, Helvetica, sans-serif" size="2"><b>Postal 
+              Code:</b></font> 
+              <input maxlength="20" name="delZip" size="12" value="94089" />
+            </td>
+
+          </tr>
+          <tr> 
+            <td align="right"><font face="Arial, Helvetica, sans-serif" size="2"><b>Country:</b></font></td>
+            <td> 
+<!-- 215.0 (country)  -->
+<script language="JavaScript">
+function CheckCountry() {
+if ((document.bookflight.delCountry.value != "215") &amp;&amp; 
+    (document.bookflight.delCountry.value != "79") &amp;&amp; 
+    (document.bookflight.delCountry.value != "266"))
+	alert('You have chosen a mailing location outside of the United States and its territories. An additional charge of $6.5 will be added as mailing charge.');
+}
+//--&gt;
+</script>
+<select name="delCountry" onchange="javascript:CheckCountry()">
+<option value="1">ANTIGUA AND BARBUDA 
+</option><option value="2">ALBANIA 
+</option><option value="3">ALGERIA 
+</option><option value="4">ANDORRA 
+</option><option value="5">ASHMORE AND CARTIER ISLANDS 
+
+</option><option value="6">AUSTRALIA 
+</option><option value="7">AMERICAN SAMOA 
+</option><option value="8">ARGENTINA 
+</option><option value="9">AUSTRIA 
+</option><option value="10">ANGUILLA 
+</option><option value="11">BAHAMAS 
+</option><option value="12">BAHRAIN 
+</option><option value="13">BAKER ISLAND 
+</option><option value="14">BANGLADESH 
+</option><option value="15">BARBADOS 
+</option><option value="16">BASSA DE INDIA 
+</option><option value="17">BELGIUM 
+</option><option value="18">BELIZE 
+</option><option value="19">BENIN 
+</option><option value="20">BERMUDA 
+</option><option value="21">BHUTAN 
+</option><option value="22">BOLIVIA 
+
+</option><option value="23">BOSNIA AND HERZEGOVINA 
+</option><option value="24">BOTSWANA 
+</option><option value="25">BOUVET ISLAND 
+</option><option value="26">BRAZIL 
+</option><option value="27">BRITISH INDIAN OCEAN TERRITORY 
+</option><option value="28">BRITISH VIRGIN ISLANDS 
+</option><option value="29">BRUNEI 
+</option><option value="30">BURMA 
+</option><option value="31">BURUNDI 
+</option><option value="32">CANADA 
+</option><option value="33">CAPE VERDE 
+</option><option value="34">CAYMAN ISLANDS 
+</option><option value="35">CENTRAL AFRICAN REPUBLIC 
+</option><option value="36">CHAD 
+</option><option value="37">CHILE 
+</option><option value="38">CHINA 
+</option><option value="39">CHRISTMAS ISLAND 
+
+</option><option value="40">CLIPPERTON ISLAND 
+</option><option value="41">COCOS (KEELING) ISLANDS 
+</option><option value="42">COLOMBIA 
+</option><option value="43">COMOROS 
+</option><option value="44">CONGO 
+</option><option value="45">COOK ISLANDS 
+</option><option value="46">CORAL SEA ISLANDS 
+</option><option value="47">CROATIA 
+</option><option value="48">CUBA 
+</option><option value="49">CYPRUS 
+</option><option value="50">CZECH REPUBLIC 
+</option><option value="51">DENMARK 
+</option><option value="52">DJIBOUTI 
+</option><option value="53">DOMINICA 
+</option><option value="54">DOMINICAN REPUBLIC 
+</option><option value="55">ECUADOR 
+</option><option value="56">EGYPT 
+
+</option><option value="57">EL SALVADOR 
+</option><option value="58">EQUATORIAL GUINEA 
+</option><option value="59">ERITREA 
+</option><option value="60">ETHIOPIA 
+</option><option value="61">EUROPA ISLAND 
+</option><option value="62">FAROE ISLANDS 
+</option><option value="63">FIJI 
+</option><option value="64">FINLAND 
+</option><option value="65">FRANCE 
+</option><option value="66">FRENCH GUIANA 
+</option><option value="67">FRENCH POLYNESIA 
+</option><option value="68">FRENCH SOUTHERN AND ANTARCTIC LANDS 
+</option><option value="69">GABON 
+</option><option value="70">GAZA STRIP 
+</option><option value="71">GEORGIA 
+</option><option value="72">GHANA 
+</option><option value="73">GIBRALTAR 
+
+</option><option value="74">GLORIOSO ISLANDS 
+</option><option value="75">GREECE 
+</option><option value="76">GREENLAND 
+</option><option value="77">GRENADA 
+</option><option value="78">GUADELOUPE 
+</option><option value="79">GUAM 
+</option><option value="80">GUATEMALA 
+</option><option value="81">GUERNSEY 
+</option><option value="82">GUINEA 
+</option><option value="83">GUINEA-BISSAU 
+</option><option value="84">GUYANA 
+</option><option value="85">HAITI 
+</option><option value="86">HEARD ISLAND AND MCDONALD ISLANDS 
+</option><option value="87">HONDURAS 
+</option><option value="88">HONG KONG 
+</option><option value="89">HOWLAND ISLAND 
+</option><option value="90">HUNGARY 
+
+</option><option value="91">ICELAND 
+</option><option value="92">INDIA 
+</option><option value="93">INDONESIA 
+</option><option value="94">IRELAND 
+</option><option value="95">ISRAEL 
+</option><option value="96">ITALY 
+</option><option value="97">COTE D'IVOIRE 
+</option><option value="98">JAMAICA 
+</option><option value="99">JAN MAYEN 
+</option><option value="100">JAPAN 
+</option><option value="101">JARVIS ISLAND 
+</option><option value="102">JERSEY 
+</option><option value="103">JOHNSTON ATOLL 
+</option><option value="104">JORDAN 
+</option><option value="105">JUAN DE NOVA ISLAND 
+</option><option value="106">CAMBODIA 
+</option><option value="107">KENYA 
+
+</option><option value="108">KINGMAN REEF 
+</option><option value="109">KIRIBATI 
+</option><option value="110">KUWAIT 
+</option><option value="111">KYRGYZSTAN 
+</option><option value="112">LAOS 
+</option><option value="113">LATVIA 
+</option><option value="114">LEBANON 
+</option><option value="115">LESOTHO 
+</option><option value="116">LIBERIA 
+</option><option value="117">LIECHTENSTEIN 
+</option><option value="118">LITHUANIA 
+</option><option value="119">LUXEMBOURG 
+</option><option value="120">MACAU 
+</option><option value="121">MADAGASCAR 
+</option><option value="122">MALAWI 
+</option><option value="123">MALAYSIA 
+</option><option value="124">MALDIVES 
+
+</option><option value="125">MALI 
+</option><option value="126">MALTA 
+</option><option value="127">MAN, ISLE OF 
+</option><option value="128">MARTINIQUE 
+</option><option value="129">MAURITANIA 
+</option><option value="130">MAURITIUS 
+</option><option value="131">MAYOTTE 
+</option><option value="132">MEXICO 
+</option><option value="133">MIDWAY ISLANDS 
+</option><option value="134">MOLDOVA 
+</option><option value="135">MONACO 
+</option><option value="136">MONGOLIA 
+</option><option value="137">MONTENEGRO 
+</option><option value="138">MONTSERRAT 
+</option><option value="139">MOROCCO 
+</option><option value="140">MOZAMBIQUE 
+</option><option value="141">NAMIBIA 
+
+</option><option value="142">NAURU 
+</option><option value="143">NAVASSA ISLAND 
+</option><option value="144">NEPAL 
+</option><option value="145">NETHERLANDS 
+</option><option value="146">NETHERLANDS ANTILLES 
+</option><option value="147">NEW CALEDONIA 
+</option><option value="148">NEW ZEALAND 
+</option><option value="149">NICARAGUA 
+</option><option value="150">NIGER 
+</option><option value="151">NIGERIA 
+</option><option value="152">NIUE 
+</option><option value="153">NO MANS LAND 
+</option><option value="154">NORFOLK ISLAND 
+</option><option value="155">NORTHERN MARIANA ISLANDS 
+</option><option value="156">NORWAY 
+</option><option value="157">OMAN 
+</option><option value="158">PALMYRA ATOLL 
+
+</option><option value="159">PANAMA 
+</option><option value="160">PAPUA NEW GUINEA 
+</option><option value="161">PARACEL ISLANDS 
+</option><option value="162">PARAGUAY 
+</option><option value="163">PERU 
+</option><option value="164">PHILIPPINES 
+</option><option value="165">PITCAIRN ISLANDS 
+</option><option value="166">POLAND 
+</option><option value="167">PORTUGAL 
+</option><option value="168">PUERTO RICO 
+</option><option value="169">QATAR 
+</option><option value="170">REUNION 
+</option><option value="171">ROMANIA 
+</option><option value="172">RWANDA 
+</option><option value="173">ST. KITTS AND NEVIS 
+</option><option value="174">ST. HELENA 
+</option><option value="175">ST. LUCIA 
+
+</option><option value="176">ST. PIERRE AND MIQUELON 
+</option><option value="177">ST. VINCENT AND THE GRENADINES 
+</option><option value="178">SAN MARINO 
+</option><option value="179">SAO TOME AND PRINCIPE 
+</option><option value="180">SENEGAL 
+</option><option value="181">SERBIA 
+</option><option value="182">SEYCHELLES 
+</option><option value="183">SIERRA LEONE 
+</option><option value="184">SINGAPORE 
+</option><option value="185">SLOVAKIA 
+</option><option value="186">SLOVENIA 
+</option><option value="187">SOLOMON ISLANDS 
+</option><option value="188">SOUTH AFRICA 
+</option><option value="189">189
+</option><option value="190">SPAIN 
+</option><option value="191">SPRATLY ISLANDS 
+</option><option value="192">SRI LANKA 
+
+</option><option value="193">SUDAN 
+</option><option value="194">SURINAME 
+</option><option value="195">SVALBARD 
+</option><option value="196">SWAZILAND 
+</option><option value="197">SWEDEN 
+</option><option value="198">SWITZERLAND 
+</option><option value="199">SYRIA 
+</option><option value="200">THAILAND 
+</option><option value="201">TOGO 
+</option><option value="202">TOKELAU 
+</option><option value="203">TONGA 
+</option><option value="204">TRINIDAD AND TOBAGO 
+</option><option value="205">TROMELIN ISLAND 
+</option><option value="206">TUNISIA 
+</option><option value="207">TURKEY 
+</option><option value="208">TURKS AND CAICOS ISLANDS 
+</option><option value="209">TUVALU 
+
+</option><option value="210">UGANDA 
+</option><option value="211">SOVIET UNION 
+</option><option value="212">UKRAINE 
+</option><option value="213">UNITED ARAB EMIRATES 
+</option><option value="214">UNITED KINGDOM 
+</option><option selected="" value="215">UNITED STATES 
+</option><option value="216">BURKINA FASO 
+</option><option value="217">URUGUAY 
+</option><option value="218">UZBEKISTAN 
+</option><option value="219">VANUATU 
+</option><option value="220">VATICAN CITY 
+</option><option value="221">VENEZUELA 
+</option><option value="222">VIRGIN ISLANDS 
+</option><option value="223">WAKE ISLAND 
+</option><option value="224">WALLIS AND FUTUNA 
+</option><option value="225">WEST BANK 
+</option><option value="226">WESTERN SAHARA 
+
+</option><option value="227">WESTERN SAMOA 
+</option><option value="228">ZAIRE 
+</option><option value="229">ZAMBIA 
+</option><option value="230">ZIMBABWE 
+</option><option value="231">TAIWAN 
+</option><option value="232">YUGOSLAVIA 
+</option><option value="233">UNDERSEA FEATURES 
+</option><option value="234">ANTARCTICA 
+</option><option value="235">BULGARIA 
+</option><option value="236">ARUBA 
+</option><option value="237">FALKLAND ISLANDS 
+</option><option value="238">OCEANS 
+</option><option value="239">COSTA RICA 
+</option><option value="240">YEMEN 
+</option><option value="241">BELARUS 
+</option><option value="242">GERMANY 
+</option><option value="243">ARMENIA 
+
+</option><option value="244">KAZAKHSTAN 
+</option><option value="245">TAJIKISTAN 
+</option><option value="246">TURKMENISTAN 
+</option><option value="247">ESTONIA 
+</option><option value="248">AFGHANISTAN 
+</option><option value="249">AZERBAIJAN 
+</option><option value="250">PAKISTAN 
+</option><option value="251">ANGOLA 
+</option><option value="252">VIETNAM 
+</option><option value="253">CAMEROON 
+</option><option value="254">IRAN 
+</option><option value="255">IRAQ 
+</option><option value="256">RUSSIA 
+</option><option value="257">SAUDI ARABIA 
+</option><option value="258">LIBYA 
+</option><option value="259">KOREA, DEMOCRATIC PEOPLE'S REPUBLIC OF 
+</option><option value="260">KOREA, REPUBLIC OF 
+
+</option><option value="261">TANZANIA, UNITED REPUBLIC OF 
+</option><option value="262">GAMBIA, THE 
+</option><option value="263">SOMALIA 
+</option><option value="264">MACEDONIA, FORMER REPUBLIC OF 
+</option><option value="265">MARSHALL ISLANDS 
+</option><option value="266">MICRONESIA 
+</option></select>
+
+            </td>
+          </tr>
+          
+	         <tr> 
+            <td colspan="2"><img src="/images/spacer.gif" width="1" height="2" /></td>
+          </tr>
+
+          <tr bgcolor="#CCCCCC"> 
+            <td colspan="2"><img src="/images/spacer.gif" width="1" height="1" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><img src="/images/spacer.gif" width="1" height="2" /></td>
+          </tr>
+          <tr> 
+            <td colspan="2" align="CENTER">   
+			   <input type="image" name="buyFlights" src="/images/forms/purchase.gif" width="118" height="23" border="0" /></td>
+
+          </tr>
+        </tbody></table>
+      </form>
+    </td>
+  </tr>
+</tbody></table>
+
+				</td>
+				</tr>
+				</tbody></table>
+
+<!--CONTENT REGION END-->
+
+        </td>
+      </tr>
+     <tr>
+      <td>
+
+<!--FOOTER REGION START-->
+
+
+<!--FOOTER REGION START-->
+<div class="footer">
+
+© 2000, Mercury Interactive (v. 011003-1.01-058)
+</div>
+<!--FOOTER REGION END-->
+
+
+<!--FOOTER REGION END-->
+
+      </td>
+     </tr>
+      
+    
+  </tbody></table>
+
+</td></tr></tbody></table>
+</div>
+
+
+</body></html>

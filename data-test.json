@@ -21,8 +21,27 @@
             "llegada":"London",
             "mesLlegada":"December",
             "diaLlegada":8,
-            "clase":"Clase ejecutiva",
-            "aerolinea":"No Preference"
+            "clase":"Business class",
+            "aerolinea":"Pangea Airlines",
+            "pasajeros":[
+                {"nombre":"Nilson","apellido":"Nieto","preferencia":"Bland"},
+                {"nombre":"Martha","apellido":"Lopez","preferencia":"Hindu"}
+              ]
+        },
+        "tarjeta":{
+            "tipoTarjeta":"Visa",
+            "numeroTarjeta":3242342342,
+            "nombre":"Nilson",
+            "segundoNombre":"Senén",
+            "apellido":"Nieto"
+        },
+        "direccionFactura":{
+            "direccion1":"Barrio Santa lucia",
+            "direccion2":"Calle 12 Cr 2 #312",
+            "cuidad":"Medellin",
+            "estado":"Antioquia",
+            "codigoPostal":1234,
+            "pais":"COLOMBIA "
         }
     }
 

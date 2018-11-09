@@ -83,20 +83,7 @@ public class JsonManager {
 		return (JSONObject) obj;
 	}
 	
-	/*Determina cuales son las plantillas que se van a editar*/
-	public JSONArray cargarEntidades() throws Exception {
-
-		try {
-
-			JSONObject json = (JSONObject) JsonManager.getInstance().getJsonReader();
-
-
-			return (JSONArray)json.get("entidades");
-		} catch (Exception e) {
-			throw new Exception("Error al cargar la configuración " + e.getMessage());
-		}
-
-	}
+	
 	
 	
 	
