@@ -40,7 +40,7 @@ public class RegistrerUser implements Task {
 	
 	@Step("{0} fill out the register form  ")
 	public <T extends Actor> void performAs(T actor) {
-		try {
+
 
 			actor.attemptsTo(Click.on(MercuryTourHome.BUTTON_REGISTER));
 
@@ -100,12 +100,7 @@ public class RegistrerUser implements Task {
 		
 			
 		
-			
-		} catch (Exception e) {
-			throw e;
-			// System.out.println("No encontro el elemento : "+e.getMessage());
-			// e.printStackTrace();
-		}
+	
 	}
 
 	public static RegistrerUser inPage(JSONObject dataTest) {
