@@ -12,8 +12,10 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
 		features = "src.test.resources/features/book_ticket.feature",
-		glue = {"step_definition"},
-		snippets = SnippetType.UNDERSCORE
+		glue = {"steps_definition"}
+		
 )
 		
+
+//snippets = SnippetType.UNDERSCORE
 public class BookTicketRunner {}

@@ -1,4 +1,4 @@
-package step_definition;
+package steps_definition;
 
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static org.hamcrest.Matchers.startsWith;
@@ -21,13 +21,13 @@ import net.serenitybdd.screenplay.abilities.BrowseTheWeb;
 import net.thucydides.core.annotations.Managed;
 import questions.ReservationResult;
 import tasks.BookTicket;
+import tasks.LogOut;
 import tasks.OpenTheBrowser;
 import tasks.RegistrerUser;
 import tasks.SearchFlight;
 import user_interfaces.MercuryTourHome;
 import util.JsonManager;
 
-@RunWith(Cucumber.class)
 public class BookTicketsDefinitions {
 
 
@@ -36,7 +36,6 @@ public class BookTicketsDefinitions {
 	
 	
 	Actor anna = Actor.named("Anna");
-
 
 
 	//Referencia al home de la sitio web
@@ -89,11 +88,9 @@ public class BookTicketsDefinitions {
     @Then("^The flight confirmation is displayed on the page$")
     public void the_flight_confirmation_is_displayed_on_the_page() throws Throwable {
     
-		 anna.should(seeThat(ReservationResult.is(), startsWith("Flight Confirmation # "+new SimpleDateFormat("yyyy-M-dd").format(Calendar.getInstance().getTime())) ));
+		 anna.should(seeThat(ReservationResult.is(), startsWith("Flight Confirmation # "+new SimpleDateFormat("yyyy-M").format(Calendar.getInstance().getTime())) ));
 		 
-		 
-		 
-      //  throw new PendingException();
+		 anna.attemptsTo(LogOut.ofPage());
     }
 
   
