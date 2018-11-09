@@ -2,42 +2,46 @@ package tasks;
 
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
+import java.util.List;
+import java.util.Random;
+
 import org.json.simple.JSONObject;
-import org.openqa.selenium.Keys;
 
 import exceptions.PersonalizedException;
-import net.bytebuddy.asm.Advice.This;
-import net.serenitybdd.core.exceptions.SerenityManagedException;
+import net.serenitybdd.core.pages.WebElementFacade;
 import net.serenitybdd.screenplay.Actor;
-import net.serenitybdd.screenplay.Performable;
 import net.serenitybdd.screenplay.Task;
 import net.serenitybdd.screenplay.actions.Click;
-
+import net.serenitybdd.screenplay.actions.Scroll;
 import net.serenitybdd.screenplay.actions.SelectFromOptions;
-import net.serenitybdd.screenplay.actions.Enter;
 import net.thucydides.core.annotations.Step;
 import user_interfaces.FlightPage;
 import user_interfaces.MercuryTourHome;
-import user_interfaces.RegisterPage;
+import user_interfaces.SearchResultsPage;
 
 public class SearchFlight implements Task {
 
 	MercuryTourHome homePage;
 	FlightPage flightPage;
+
+	SearchResultsPage searchResultsPage;
 	JSONObject dataTest;
 
 	public SearchFlight(JSONObject dataTest) {
 
 		this.dataTest = (JSONObject) dataTest.get("vuelo");
 		System.out.println(this.dataTest.toJSONString());
+		searchResultsPage = new SearchResultsPage();
 
 	}
 
-	//@Step("{0} chooses the flight type")
+	
+	/**
+	 * Selecionando el tipo de reserva ( Ida y Vuelta o solo ida)
+	 * */
 	public void choosesType(Actor actor) {
 		
-		System.out.println("Tipo ."+dataTest.get("tipo").toString().equals("Round Trip"));
-		System.out.println("Tipo ."+dataTest.get("tipo").toString().equalsIgnoreCase("Round Trip"));
+
 		if (dataTest.get("tipo").toString().equals("Round Trip")) {
 			actor.attemptsTo(Click.on(FlightPage.INPUT_ROUND_TRIP));
 		}else if (dataTest.get("tipo").toString().equals("One Way")) {
@@ -49,7 +53,9 @@ public class SearchFlight implements Task {
 
 	}
 	
-	//@Step("{0} chooses the number passanger ")
+	/**
+	 * Selecionando el numero de pasajes
+	 * */
 	public void choosesNumberPassanger(Actor actor) {
 		
 		
@@ -65,7 +71,9 @@ public class SearchFlight implements Task {
 
 	}
 	
-	
+	/**
+	 * Selecionando lugar de partida
+	 * */
 	public void choosesDeparting(Actor actor) {
 		
 		
@@ -81,6 +89,9 @@ public class SearchFlight implements Task {
 
 	}
 	
+	/**
+	 * Selecionando el mes y dia de salida 
+	 * */
 	public void choosesDepartingOn(Actor actor) {
 		
 		
@@ -100,6 +111,9 @@ public class SearchFlight implements Task {
 
 	}
 	
+	/**
+	 * Selecionando el lugar de regreso
+	 * */
 	public void choosesArraving(Actor actor) {
 		
 		
@@ -116,6 +130,9 @@ public class SearchFlight implements Task {
 	}
 	
 	
+	/**
+	 * Selecionando el mes y dia de llegada 
+	 * */
 	public void choosesArravingOn(Actor actor) {
 		
 		
@@ -138,6 +155,9 @@ public class SearchFlight implements Task {
 	
 	
 	
+	/**
+	 * Escoger las preferencias del vuelo ( Clase y Aerolinea de preferencia)
+	 * */
 	public void choosesPreference(Actor actor) {
 		
 		
@@ -202,6 +222,61 @@ public class SearchFlight implements Task {
 		actor.attemptsTo(Click.on(MercuryTourHome.BUTTON_FLIGHTS));
 	}
 	
+	
+	@Step("{0} press click in confirm")
+	public void pressClickContinue(Actor actor) {
+		actor.attemptsTo(Click.on(SearchResultsPage.BUTTON_CONTINUE));
+	}
+	
+
+	
+	/**
+	 * De las opciones que aparezcan se selecciona una al azar
+	 * */
+	@Step("{0} selects the flights")
+	public void selectFlight(Actor actor) {
+		
+	
+		
+        
+		try {
+			
+			SearchResultsPage.TABLE_RESULTS.resolveFor(actor).waitUntilVisible();
+			
+			List<WebElementFacade> listDepart =searchResultsPage.getDepartFlights();
+			
+			Random random = new Random();
+			
+			int optionDepart = random.nextInt(listDepart.size());
+						
+			// nextInt genera un numero entre 0 y el extremo, entonces si la lista tiene 6 
+			// intenteria acceder a la indice 6, lo que ocasionaria un error
+			actor.attemptsTo(Click.on(listDepart.get(optionDepart==0?0:optionDepart-1)));
+
+			if(dataTest.get("tipo").equals("Round Trip")) {
+			
+				
+				List<WebElementFacade> listReturn =searchResultsPage.getReturnFlights();
+				 int optionReturn = random.nextInt(listDepart.size());
+
+				// nextInt genera un numero entre 0 y el extremo, entonces si la lista tiene 6 
+				// intenteria acceder a la indice 6, lo que ocasionaria un error
+				actor.attemptsTo(Click.on(listDepart.get(optionReturn==0?0:optionReturn-1)));
+			}
+			
+			
+	
+		} catch (Exception e) {
+			throw new PersonalizedException("Inconvenientes con la tabla de resultados de busqueda", e);
+		}
+
+     
+		
+		
+	}
+	
+	
+	
 	@Step("{0} fill out the flight register")
 	public <T extends Actor> void performAs(T actor) {
 		try {
@@ -224,6 +299,15 @@ public class SearchFlight implements Task {
 				
 			}
 			
+			
+			pressSearchFlight(actor);
+			
+			selectFlight(actor);
+			
+			actor.attemptsTo(Scroll.to(SearchResultsPage.BUTTON_CONTINUE));
+			
+			
+			pressClickContinue(actor);
 			
 			
 				

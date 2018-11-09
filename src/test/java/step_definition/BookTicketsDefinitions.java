@@ -52,7 +52,7 @@ public class BookTicketsDefinitions {
     public void the_user_opened_mercury_tours_home_page() throws Throwable {
    
     	System.out.println("1");
-		//anna.wasAbleTo(OpenTheBrowser.at(mercuryTourHome));
+		anna.wasAbleTo(OpenTheBrowser.at(mercuryTourHome));
      
 
  
@@ -61,7 +61,7 @@ public class BookTicketsDefinitions {
     public void the_user_logs_into_the_page() throws Throwable {
 		
     	System.out.println("2");
-    	//anna.attemptsTo(RegistrerUser.inPage(JsonManager.getInstance().getJsonReader()));
+    	anna.attemptsTo(RegistrerUser.inPage(JsonManager.getInstance().getJsonReader()));
 		
         //throw new PendingException();
     }
@@ -70,7 +70,7 @@ public class BookTicketsDefinitions {
     public void the_user_searches_for_a_flight() throws Throwable {
       
     	System.out.println("3");
-    	//anna.attemptsTo(SearchFlight.towards((JSONObject) JsonManager.getInstance().getJsonReader().get("usuario")));
+    	anna.attemptsTo(SearchFlight.towards((JSONObject) JsonManager.getInstance().getJsonReader().get("usuario")));
        
     }
     
